@@ -8,9 +8,9 @@ int main(void) {
     int max_digit = 0, count_digit = 0;
 
     scanf("%d", &N);
-
+    getchar();
     for (int i = 0; i < N; i++) {
-        scanf(" %c", &c); 
+        scanf("%c", &c); 
 
         if (c >= 'a' && c <= 'z') {
             count_lower++;

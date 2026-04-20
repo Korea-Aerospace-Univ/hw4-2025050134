@@ -17,6 +17,7 @@ int main(void) {
         } else {
             printf("%d==?\n", num);
         }
+        
     } while (num != answer);
 
     printf("%d\n", count);
